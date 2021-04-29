@@ -3,8 +3,11 @@ import in_class_act
 
 class TestCase(unittest.TestCase):
     
-    def test_add(self):
+    def test_add_1(self):
         self.assertEqual(in_class_act.add(4,2), 6)
+    
+    def test_add_2(self):
+        self.assertEqual(in_class_act.add(4,2), 5)
 
     def test_sub(self):
         self.assertEqual(in_class_act.sub(7, 4), 3)
